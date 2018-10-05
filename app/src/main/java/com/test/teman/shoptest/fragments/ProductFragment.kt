@@ -33,6 +33,8 @@ private lateinit var imageListConverted: IntArray
 
 private lateinit var rvImages: RecyclerView
 
+private val cartFragment: CartFragment = CartFragment()
+
 class ProductFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
@@ -66,7 +68,8 @@ class ProductFragment : Fragment() {
             (context as MainActivity).setFragment("elseWhere")
         }
         buttonAdd.setOnClickListener{
-            Toast.makeText(context, "Added", Toast.LENGTH_SHORT).show()
+            cartFragment.addItemToCart(infoName, infoPrice, infoImage)
+            Toast.makeText(context, "Added to cart.", Toast.LENGTH_SHORT).show()
         }
 
         val textViewInfo = viewFinal.findViewById<TextView>(R.id.textViewInfoAll)

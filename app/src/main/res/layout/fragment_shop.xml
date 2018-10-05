@@ -24,8 +24,12 @@
             android:id="@+id/searchViewProducts"
             android:layout_width="match_parent"
             android:layout_height="45dp"
+            android:layout_marginTop="2dp"
             android:background="@color/colorPrimary"
-            android:queryHint="@string/hintSearch" />
+            android:queryHint="@string/hintSearch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerViewProducts"

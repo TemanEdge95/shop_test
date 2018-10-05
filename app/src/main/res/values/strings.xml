@@ -21,6 +21,11 @@
     //buttons
     <string name="buttonCancel">Back</string>
     <string name="buttonAddToCart">Add</string>
+    <string name="buttonDelete">Delete</string>>
+    <string name="buttonSearch">Search</string>
+
+    <string name="textViewEmpty">Cart is empty</string>
+    <string name="textViewTotal">Total:</string>
 
     //dataset
     <string name="hintSearch">Search</string>
@@ -151,68 +156,68 @@
     //info_images
     <array name="infoImagesDonut">
         <item>@drawable/donut</item>
-        <item>@drawable/donut</item>
-        <item>@drawable/donut</item>
+        <item>@drawable/donut_1</item>
+        <item>@drawable/donut_2</item>
     </array>
 
     <array name="infoImagesIcecream">
         <item>@drawable/icecream</item>
-        <item>@drawable/icecream</item>
-        <item>@drawable/icecream</item>
+        <item>@drawable/icecream_1</item>
+        <item>@drawable/icecream_2</item>
     </array>
 
     <array name="infoImagesEclair">
         <item>@drawable/eclair</item>
-        <item>@drawable/eclair</item>
-        <item>@drawable/eclair</item>
+        <item>@drawable/eclair_1</item>
+        <item>@drawable/eclair_2</item>
     </array>
 
     <array name="infoImagesJelly">
         <item>@drawable/jelly</item>
-        <item>@drawable/jelly</item>
-        <item>@drawable/jelly</item>
+        <item>@drawable/jelly_1</item>
+        <item>@drawable/jelly_2</item>
     </array>
 
     <array name="infoImagesFroyo">
         <item>@drawable/froyo</item>
-        <item>@drawable/froyo</item>
-        <item>@drawable/froyo</item>
+        <item>@drawable/froyo_1</item>
+        <item>@drawable/froyo_2</item>
     </array>
 
     <array name="infoImagesKitkat">
         <item>@drawable/kitkat</item>
-        <item>@drawable/kitkat</item>
-        <item>@drawable/kitkat</item>
+        <item>@drawable/kitkat_1</item>
+        <item>@drawable/kitkat_2</item>
     </array>
 
     <array name="infoImagesGinger">
         <item>@drawable/ginger</item>
-        <item>@drawable/ginger</item>
-        <item>@drawable/ginger</item>
+        <item>@drawable/ginger_1</item>
+        <item>@drawable/ginger_2</item>
     </array>
 
     <array name="infoImagesLollipop">
         <item>@drawable/lollipop</item>
-        <item>@drawable/lollipop</item>
-        <item>@drawable/lollipop</item>
+        <item>@drawable/lollipop_1</item>
+        <item>@drawable/lollipop_2</item>
     </array>
 
     <array name="infoImagesHoney">
         <item>@drawable/honey</item>
-        <item>@drawable/honey</item>
-        <item>@drawable/honey</item>
+        <item>@drawable/honey_1</item>
+        <item>@drawable/honey_2</item>
     </array>
 
     <array name="infoImagesMarsh">
         <item>@drawable/marsh</item>
-        <item>@drawable/marsh</item>
-        <item>@drawable/marsh</item>
+        <item>@drawable/marsh_1</item>
+        <item>@drawable/marsh_2</item>
     </array>
 
     <array name="infoImagesPie">
         <item>@drawable/pie</item>
-        <item>@drawable/pie</item>
-        <item>@drawable/pie</item>
+        <item>@drawable/pie_1</item>
+        <item>@drawable/pie_2</item>
     </array>
 
 </resources>
