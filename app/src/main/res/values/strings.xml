@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Shop Test</string>
+
+    //bottom_bavigation_strings
+    <string name="bottom_shop">Shop</string>
+    <string name="bottom_cart">Cart</string>
+
+    //bottom_sheet_strings
+    <string name="bottom_sheet_label">Sort and presenting</string>
+    <string name="bottom_sheet_name">By name:</string>
+    <string name="bottom_sheet_version">By price:</string>
+    <string name="sort_label">Sorted:</string>
+    <string name="sort_name_down">A–Z</string>
+    <string name="sort_name_up">Z–A</string>
+    <string name="sort_price_up">9–0</string>
+    <string name="sort_price_down">0–9</string>
+    <string name="presenting_label">Presented:</string>
+    <string name="presenting_one">In list</string>
+    <string name="presenting_two">By pairs</string>
+
+    //buttons
+    <string name="buttonCancel">Back</string>
+    <string name="buttonAddToCart">Add</string>
+
+    //dataset
+    <string name="hintSearch">Search</string>
+
+    <string-array name="dataNames">
+        <item>Donut</item>
+        <item>Ice-cream</item>
+        <item>Eclair</item>
+        <item>Jelly</item>
+        <item>Froyo</item>
+        <item>KitKat</item>
+        <item>Gingerbread</item>
+        <item>Lollipop</item>
+        <item>Honeycomb</item>
+        <item>Marshmallow</item>
+        <item>Pie</item>
+    </string-array>
+
+    <string-array name="dataVersions">
+        <item>4.4</item>
+        <item>2.3</item>
+        <item>5.0</item>
+        <item>3.0</item>
+        <item>6.0</item>
+        <item>7.0</item>
+        <item>1.6</item>
+        <item>4.0</item>
+        <item>2.1</item>
+        <item>4.1</item>
+        <item>2.2</item>
+    </string-array>
+
+    <array name="dataImageInt">
+        <item>@drawable/donut</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/eclair</item>
+        <item>@drawable/jelly</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/kitkat</item>
+        <item>@drawable/ginger</item>
+        <item>@drawable/lollipop</item>
+        <item>@drawable/honey</item>
+        <item>@drawable/marsh</item>
+        <item>@drawable/pie</item>
+    </array>
+
+    //infoAbout for all items
+    <string-array name="infoAbout">
+        <item>A doughnut (British) or donut (American) is a type of fried dough confection or dessert food.
+            The doughnut is popular in many countries and prepared in various
+            forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets,
+            food stalls, and franchised specialty vendors.</item>
+
+        <item>Within Australia, ice cream sandwiches are given the commercial name of Giant
+            Sandwich (recognizable by its distinct blue and pink wrapper), and Monaco Bar
+            (recognizable by its gold and black metallic wrapper) in the Eastern states.</item>
+
+        <item>An eclair is an oblong pastry made with choux dough filled with a cream and topped
+            with chocolate icing. The dough, which is the same as that used for profiterole, is
+            typically piped into an oblong shape with a pastry bag and baked until it is crisp and
+            hollow inside.</item>
+
+        <item>Jelly beans are small bean-shaped sugar candies with soft candy shells and thick gel
+            interiors. The confection is sold in a wide variety of colors and flavors, and is made
+            primarily of sugar.</item>
+
+        <item>Frozen yogurt (also spelled frozen yoghurt; also known as frogurt or by the tradename
+            Froyo) is a frozen dessert made with yogurt and sometimes other dairy
+            products including non-dairy products. It is usually more tart than ice cream, as well
+            as lower in fat (due to the use of milk instead of cream).</item>
+
+        <item>Kit Kat is a chocolate-covered wafer bar confection created by Rowntrees of York,
+            United Kingdom, and is now produced globally by Nestle, which acquired Rowntree in 1988,
+            with the exception of the United States where it is made under license by H.B. Reese
+            Candy Company, a division of The Hershey Company.</item>
+
+        <item>Gingerbread refers to a broad category of baked goods, typically flavored with ginger,
+            cloves, nutmeg or cinnamon and sweetened with honey, sugar or molasses. Gingerbread
+            foods vary, ranging from a soft, moist loaf cake to something close to a ginger biscuit.</item>
+
+        <item>A lollipop is a type of sugar candy usually consisting of hard candy mounted on a stick
+            and intended for sucking or licking. Different informal terms are used in different places,
+            including lolly, sucker, sticky-pop, etc. Lollipops are available in many flavors and shapes.
+
+            Lollipops are available in a number of colors and flavors, particularly fruit flavors.
+            With numerous companies producing lollipops, the candy now comes in dozens of flavors and
+            many different shapes. They range from small ones which can be bought by the hundred and
+            are often given away for free at banks, barbershops, and other locations, to very large
+            ones made out of candy canes twisted into a circle.</item>
+
+        <item>A honeycomb is a mass of hexagonal prismatic wax cells built by honey bees in their nests
+            to contain their larvae and stores of honey and pollen. Beekeepers may remove the entire
+            honeycomb to harvest honey. Honey bees consume about 8.4 lb (3.8 kg) of honey to secrete
+            1 lb (454 g) of wax, so it makes economic sense to return the wax to the hive after
+            harvesting the honey. The structure of the comb may be left basically intact when honey
+            is extracted from it by uncapping and spinning in a centrifugal machine—the honey extractor.
+
+            If the honeycomb is too worn out, the wax can be reused in a number of ways, including
+            making sheets of comb foundation with hexagonal pattern. Such foundation sheets allow the
+            bees to build the comb with less effort, and the hexagonal pattern of worker-sized cell
+            bases discourages the bees from building the larger drone cells.</item>
+
+        <item>A marshmallow is a sugar-based confectionery that in its modern form typically consists
+            of sugar, water and gelatin whipped to a squishy consistency, molded into small cylindrical
+            pieces, and coated with corn starch. Some marshmallow recipes call for eggs.
+
+            The word comes from the mallow plant species, an herb native to parts of Europe, North Africa, and Asia which grows in marshes and other damp areas.
+            The plants stem and leaves are fleshy and its white flower has five petals. It is not
+            known exactly when marshmallows were invented, but their history goes back as early as 2000 B.C.
+            Ancient Egyptians were said to be the first to make them and eating them was a privilege
+            strictly reserved for gods and for royalty, who used the root of the plant and to soothe
+            coughs and sore throats, and to heal wounds. The first marshmallows were prepared by boiling
+            pieces of root pulp with honey until thick. Once thickened, the mixture was strained, cooled,
+            and then used as intended.</item>
+
+        <item>A pie is a baked dish which is usually made of a pastry dough casing that covers or completely
+            contains a filling of various sweet or savoury ingredients. Pies are defined by their crusts.
+            A filled pie (also single-crust or bottom-crust), has pastry lining the baking dish, and the
+            filling is placed on top of the pastry but left open. A top-crust pie has the filling in
+            the bottom of the dish and is covered with a pastry or other covering before baking.
+            A two-crust pie has the filling completely enclosed in the pastry shell. Shortcrust pastry
+            is a typical kind of pastry used for pie crusts, but many things can be used, including
+            baking powder biscuits, mashed potatoes, and crumbs.
+
+            Pies can be a variety of sizes, ranging from bite-size to ones designed for multiple servings.</item>
+    </string-array>
+
+    //info_images
+    <array name="infoImagesDonut">
+        <item>@drawable/donut</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/donut</item>
+    </array>
+
+    <array name="infoImagesIcecream">
+        <item>@drawable/icecream</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/icecream</item>
+    </array>
+
+    <array name="infoImagesEclair">
+        <item>@drawable/eclair</item>
+        <item>@drawable/eclair</item>
+        <item>@drawable/eclair</item>
+    </array>
+
+    <array name="infoImagesJelly">
+        <item>@drawable/jelly</item>
+        <item>@drawable/jelly</item>
+        <item>@drawable/jelly</item>
+    </array>
+
+    <array name="infoImagesFroyo">
+        <item>@drawable/froyo</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/froyo</item>
+    </array>
+
+    <array name="infoImagesKitkat">
+        <item>@drawable/kitkat</item>
+        <item>@drawable/kitkat</item>
+        <item>@drawable/kitkat</item>
+    </array>
+
+    <array name="infoImagesGinger">
+        <item>@drawable/ginger</item>
+        <item>@drawable/ginger</item>
+        <item>@drawable/ginger</item>
+    </array>
+
+    <array name="infoImagesLollipop">
+        <item>@drawable/lollipop</item>
+        <item>@drawable/lollipop</item>
+        <item>@drawable/lollipop</item>
+    </array>
+
+    <array name="infoImagesHoney">
+        <item>@drawable/honey</item>
+        <item>@drawable/honey</item>
+        <item>@drawable/honey</item>
+    </array>
+
+    <array name="infoImagesMarsh">
+        <item>@drawable/marsh</item>
+        <item>@drawable/marsh</item>
+        <item>@drawable/marsh</item>
+    </array>
+
+    <array name="infoImagesPie">
+        <item>@drawable/pie</item>
+        <item>@drawable/pie</item>
+        <item>@drawable/pie</item>
+    </array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //theme_colors
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#333333</color>
+    <color name="colorBackground">#f2f2f2</color>
+    <color name="colorText">#333333</color>
+    <color name="colorHint">#c1c1c1</color>
+    //bottom_navigation_colors
+    <color name="colorItemSelected">#333333</color>
+    <color name="colorItemNotSelected">#a1a1a1</color>
+</resources>
